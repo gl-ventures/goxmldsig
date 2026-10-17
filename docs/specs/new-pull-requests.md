@@ -36,6 +36,9 @@ Not on the merge path: no required check is added, renamed or removed.
   "assign new pull requests to their author" PRs across gl-ventures) and send
   them to Code Review. All open rollout PRs take the job-level permissions
   variant first used in `xfa-versions-service#420`, so the open copies are identical.
+- 2026-10-17, Copilot review: this repo pins every action to a commit SHA and
+  runs OpenSSF Scorecard, so `actions/github-script` is pinned to the v9.0.0 SHA
+  here too (the one difference from the other copies).
 
 ## How to validate
 

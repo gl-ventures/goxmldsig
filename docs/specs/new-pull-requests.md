@@ -30,6 +30,7 @@ Not on the merge path.
   `PROJECT_BOARD_TOKEN`, which GitHub does not pass to PRs from forks.
 - 2026-10-17, Copilot review: `actions/github-script` is pinned to the v9.0.0
   commit SHA, as every other action in this repo is (it runs OpenSSF Scorecard).
+
 ## How to validate
 
 - `actionlint .github/workflows/new-pull-requests.yml` passes.
